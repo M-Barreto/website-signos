@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Seu Signo</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="./leao.html">
+</head>
+<body>
+    <header class="menu-principal">
+        <main class="col-100">
+        <div class="header-1">
+        <div class="logo" >
+            <img src="./assents2/logo.png" />
+        </div>
+        <div class="redes-sociais">
+            <ul>
+                <li><a href=""><img src="./assents2/insta-log.png" alt=""></a></li>
+                <li><a href=""><img src="./assents2/face-logo.png" alt=""></a></li>
+            </ul>
+        </div>
+        </div>
+    </main>
+
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a> </li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Sevice</a></li>
+                    <li><a href="">Contact US</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="busca">
+           <input placeholder="Search Someting" type="text"/>
+        </div>
+      
+    </main>
+    <div class="col-100">
+        <div class="slider-principal">
+            <div><img src=".//assents2/pexels-adrien-olichon-2538107.jpg"/></div>
+            <div><img src="./assents2/pexels-jakub-novacek-924824.jpg"/></div>
+            <div><img src="./assents2/proporcao-elementos-dos-signos-scaled.webp"</div>
+          </div>
+    </div>
+    <div class="content texto-destaque">
+        <h1>Discover your <strong>zodiac sign</strong> now!</h1>
+        <p>below enter the date of your birth and we will introduce you to your sign.</p>
+    </div>
+
+    <section>
+        <div class="ano">
+        <p>DATA DE NASCIMENTO:
+            <input type="txtdia" name="" id="txtdia" maxlength="2" min="0">
+            <input type="txtmes" name="" id="txtmes" maxlength="2" min="0">
+            <input type="txtano" name="" id="txtano" maxlength="2" min="0">
+        </p>
+        
+        <p>
+            <input type="button" value="verificar" id="botao" onclick="verificar()">
+        </p>
+        </div>
+
+        <div id="res">  
+           <strong>ATENÇÃO:</strong> preecha os dados acima para ver o resultado! 
+        </div>    
+        
+    </section>
+
+    <footer>
+        <p>&copy;MB</p>
+    </footer>
+
+   
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
